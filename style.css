@@ -1,10 +1,20 @@
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
 .flow-circular-regular {
   font-family: "Flow Circular", system-ui;
   font-weight: 400;
   font-style: normal;
 }
-// <weight>: Use a value from 100 to 900
-// <uniquifier>: Use a unique and descriptive class name
+/* <weight>: Use a value from 100 to 900 */
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <uniquifier>: Use a unique and descriptive class name*/
 .lexend-deca-body {
   font-family: "Lexend Deca", sans-serif;
   font-optical-sizing: auto;
@@ -17,4 +27,39 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: hsl(0, 0%, 95%);
+}
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+div {
+  display: flex;
+  flex-direction: row;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 0;
+  /*width: 100%;
+  max-width: 1200px;
+  margin: auto;*/
 }
