@@ -1,3 +1,6 @@
+body {
+  border-radius: 100%;
+}
 .sedan {
   background-color: hsl(31, 77%, 52%);
 }
@@ -55,11 +58,30 @@ div {
 article {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   flex: 1;
   min-width: 0;
+  padding: 30px;
   /*width: 100%;
   max-width: 1200px;
   margin: auto;*/
+}
+button {
+  font-family: "Lexend Deca", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  /*color: hsl(31, 77%, 52%);*/
+  background-color: hsl(0, 100%, 100%);
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+  width: fit-content;
+}
+img {
+  width: 30%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
 }
